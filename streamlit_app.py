@@ -1,7 +1,7 @@
 import streamlit
 import pandas
 import requests
-from urllib import URLError
+from urllib.error import URLError
 
 streamlit.title('My Mom\'s New Healthy Diner')
 streamlit.header('Breakfast Menu')
